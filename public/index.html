@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Server Side Scripting - Week 10</title>
+    <script src="/js/app.js" defer></script>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <h1 id="mainTitle">Testing Routes</h1>
+    <h1>Let's Test the Fetch Request into our API</h1>
+    <p>
+      Parameter 1 (write something):
+      <input type="text" id="parm1" style="width: 250px;" />
+    </p>
+    <p>
+      Parameter 2 (write something):
+      <input type="text" id="parm2" style="width: 250px;" />
+    </p>
+    <div id="error"></div>
+    <button id="sendReq">Click to Send to API - Get the date</button><br />
+    <h1>Test a second route - Get the date</h1>
+    <button id="sendReq2">Click to get the Date</button>
+    <div id="day"></div>
+    <div id="month"></div>
+    <h1>Testing a third route - Repeat word 10x</h1>
+    <p>
+      Parameter: (write something)
+      <input type="text" id="parm3" style="width: 250px;" />
+    </p>
+    <button id="sendReq3">Click to test</button>
+    <div id="res3"></div>
+    <h1>Testing a fourth route - bring data</h1>
+    <button id="sendReq4">Click to bring json data</button>
+    <div id="res4"></div>
+  </body>
+</html>
